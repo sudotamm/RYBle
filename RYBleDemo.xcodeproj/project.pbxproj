@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B61E4DF6BF6091DF3D0C3CE /* Pods_RYBleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC22166209B1116E0785F0 /* Pods_RYBleDemo.framework */; };
+		9401719D1A399D5A0084087D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947655D51A393290007DBE24 /* Main.storyboard */; };
+		940AFA3A1A3EB026003D6B93 /* Loading.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940AFA391A3EB026003D6B93 /* Loading.xcassets */; };
+		940B26251E08C69000627DC7 /* Constant-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B26241E08C69000627DC7 /* Constant-String.swift */; };
+		9419C81C1D51C06F0084C7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C81B1D51C06F0084C7C9 /* AppDelegate.swift */; };
+		9419C8241D51C1CE0084C7C9 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C8231D51C1CE0084C7C9 /* SettingViewController.swift */; };
+		9419C8281D51C7510084C7C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C8271D51C7510084C7C9 /* HomeViewController.swift */; };
+		9419C82A1D51C7E10084C7C9 /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C8291D51C7E10084C7C9 /* RootTabBarViewController.swift */; };
+		9419C82C1D51C8C10084C7C9 /* Constant-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C82B1D51C8C10084C7C9 /* Constant-Swift.swift */; };
+		9419C82E1D51CFBF0084C7C9 /* RootNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C82D1D51CFBF0084C7C9 /* RootNaviViewController.swift */; };
+		9419C8301D51CFF50084C7C9 /* CommonNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C82F1D51CFF50084C7C9 /* CommonNaviController.swift */; };
+		9419C8321D51D3630084C7C9 /* PannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C8311D51D3630084C7C9 /* PannelViewController.swift */; };
+		9419C8341D51D3F50084C7C9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C8331D51D3F50084C7C9 /* StartViewController.swift */; };
+		947DCA0B1F46B27800F24DEA /* RYBle.h in Headers */ = {isa = PBXBuildFile; fileRef = 947DCA091F46B27800F24DEA /* RYBle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947DCA0E1F46B27800F24DEA /* RYBle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DCA071F46B27800F24DEA /* RYBle.framework */; };
+		947DCA0F1F46B27800F24DEA /* RYBle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 947DCA071F46B27800F24DEA /* RYBle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		947DCA141F46B28700F24DEA /* RYBleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9494FCE71F3D4D16003A7FA1 /* RYBleManager.swift */; };
+		948158811F42B8A00054D5BA /* BleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948158801F42B8A00054D5BA /* BleDetailViewController.swift */; };
+		94A862491D98E7BA00977748 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D502381D531E81007DEE02 /* BaseViewController.m */; };
+		94BB10441F440A8F00990A47 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BB10431F440A8F00990A47 /* Icon.xcassets */; };
+		94D748F61F418D0B003390C9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D748F51F418D0B003390C9 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947DCA0C1F46B27800F24DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947655C01A393290007DBE24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947DCA061F46B27800F24DEA;
+			remoteInfo = RYBle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		947DCA131F46B27800F24DEA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				947DCA0F1F46B27800F24DEA /* RYBle.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		940AFA391A3EB026003D6B93 /* Loading.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Loading.xcassets; sourceTree = "<group>"; };
+		940B26241E08C69000627DC7 /* Constant-String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constant-String.swift"; sourceTree = "<group>"; };
+		9419C81A1D51C06E0084C7C9 /* RootDirectory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RootDirectory-Bridging-Header.h"; sourceTree = "<group>"; };
+		9419C81B1D51C06F0084C7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9419C8231D51C1CE0084C7C9 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9419C8251D51C2110084C7C9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9419C8271D51C7510084C7C9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9419C8291D51C7E10084C7C9 /* RootTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		9419C82B1D51C8C10084C7C9 /* Constant-Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constant-Swift.swift"; sourceTree = "<group>"; };
+		9419C82D1D51CFBF0084C7C9 /* RootNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNaviViewController.swift; sourceTree = "<group>"; };
+		9419C82F1D51CFF50084C7C9 /* CommonNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonNaviController.swift; sourceTree = "<group>"; };
+		9419C8311D51D3630084C7C9 /* PannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PannelViewController.swift; sourceTree = "<group>"; };
+		9419C8331D51D3F50084C7C9 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		947655C81A393290007DBE24 /* RYBleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYBleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947655D61A393290007DBE24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		947656591A393B1E007DBE24 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9476565B1A393B1E007DBE24 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		947DCA071F46B27800F24DEA /* RYBle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RYBle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947DCA091F46B27800F24DEA /* RYBle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYBle.h; sourceTree = "<group>"; };
+		947DCA0A1F46B27800F24DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948158801F42B8A00054D5BA /* BleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleDetailViewController.swift; sourceTree = "<group>"; };
+		9494FCE71F3D4D16003A7FA1 /* RYBleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYBleManager.swift; sourceTree = "<group>"; };
+		94BB10431F440A8F00990A47 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
+		94D502371D531E81007DEE02 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		94D502381D531E81007DEE02 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		94D748F51F418D0B003390C9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B2CEEE0DAC573FD719733188 /* Pods-RYBleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYBleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYBleDemo/Pods-RYBleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CB8C8334D108052BCD623588 /* Pods-RYBleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYBleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYBleDemo/Pods-RYBleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E1CC22166209B1116E0785F0 /* Pods_RYBleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYBleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947655C51A393290007DBE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DCA0E1F46B27800F24DEA /* RYBle.framework in Frameworks */,
+				94D748F61F418D0B003390C9 /* CoreBluetooth.framework in Frameworks */,
+				4B61E4DF6BF6091DF3D0C3CE /* Pods_RYBleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947DCA031F46B27800F24DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86053CEC220FB0B0B39FB2B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2CEEE0DAC573FD719733188 /* Pods-RYBleDemo.debug.xcconfig */,
+				CB8C8334D108052BCD623588 /* Pods-RYBleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		947655BF1A393290007DBE24 = {
+			isa = PBXGroup;
+			children = (
+				947655CA1A393290007DBE24 /* RootDirectory */,
+				947DCA081F46B27800F24DEA /* RYBle */,
+				94A0F2041A52726B00A147EC /* Frameworks */,
+				947655C91A393290007DBE24 /* Products */,
+				86053CEC220FB0B0B39FB2B2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		947655C91A393290007DBE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947655C81A393290007DBE24 /* RYBleDemo.app */,
+				947DCA071F46B27800F24DEA /* RYBle.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947655CA1A393290007DBE24 /* RootDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				9419C82B1D51C8C10084C7C9 /* Constant-Swift.swift */,
+				940B26241E08C69000627DC7 /* Constant-String.swift */,
+				9419C81B1D51C06F0084C7C9 /* AppDelegate.swift */,
+				9419C8331D51D3F50084C7C9 /* StartViewController.swift */,
+				9419C8311D51D3630084C7C9 /* PannelViewController.swift */,
+				947655D51A393290007DBE24 /* Main.storyboard */,
+				947655F41A39346F007DBE24 /* ViewControlers */,
+				947656101A393697007DBE24 /* Utilities */,
+				947656541A393AD6007DBE24 /* Resources */,
+				947655CB1A393290007DBE24 /* Supporting Files */,
+			);
+			path = RootDirectory;
+			sourceTree = "<group>";
+		};
+		947655CB1A393290007DBE24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				947656591A393B1E007DBE24 /* Info.plist */,
+				9476565B1A393B1E007DBE24 /* PrefixHeader.pch */,
+				9419C81A1D51C06E0084C7C9 /* RootDirectory-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		947655F41A39346F007DBE24 /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				9419C8251D51C2110084C7C9 /* BaseViewController.swift */,
+				94D502371D531E81007DEE02 /* BaseViewController.h */,
+				94D502381D531E81007DEE02 /* BaseViewController.m */,
+				9419C82F1D51CFF50084C7C9 /* CommonNaviController.swift */,
+				9419C82D1D51CFBF0084C7C9 /* RootNaviViewController.swift */,
+				9419C8291D51C7E10084C7C9 /* RootTabBarViewController.swift */,
+				947656041A393490007DBE24 /* HomeView */,
+				9476560A1A393498007DBE24 /* SettingView */,
+			);
+			path = ViewControlers;
+			sourceTree = "<group>";
+		};
+		947656041A393490007DBE24 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9419C8271D51C7510084C7C9 /* HomeViewController.swift */,
+				948158801F42B8A00054D5BA /* BleDetailViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		9476560A1A393498007DBE24 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				9419C8231D51C1CE0084C7C9 /* SettingViewController.swift */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+		947656101A393697007DBE24 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				94A1F6861A7928B600953C3C /* RYCommonViews */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		947656541A393AD6007DBE24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				947656561A393AD6007DBE24 /* Images */,
+				947656551A393AD6007DBE24 /* Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		947656551A393AD6007DBE24 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		947656561A393AD6007DBE24 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				94BB10431F440A8F00990A47 /* Icon.xcassets */,
+				940AFA391A3EB026003D6B93 /* Loading.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		947DCA081F46B27800F24DEA /* RYBle */ = {
+			isa = PBXGroup;
+			children = (
+				947DCA091F46B27800F24DEA /* RYBle.h */,
+				9494FCE71F3D4D16003A7FA1 /* RYBleManager.swift */,
+				947DCA0A1F46B27800F24DEA /* Info.plist */,
+			);
+			path = RYBle;
+			sourceTree = "<group>";
+		};
+		94A0F2041A52726B00A147EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94D748F51F418D0B003390C9 /* CoreBluetooth.framework */,
+				E1CC22166209B1116E0785F0 /* Pods_RYBleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94A1F6861A7928B600953C3C /* RYCommonViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RYCommonViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		947DCA041F46B27800F24DEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DCA0B1F46B27800F24DEA /* RYBle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		947655C71A393290007DBE24 /* RYBleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947655EB1A393290007DBE24 /* Build configuration list for PBXNativeTarget "RYBleDemo" */;
+			buildPhases = (
+				398D5E68768499AC1A8CEC5F /* [CP] Check Pods Manifest.lock */,
+				947655C41A393290007DBE24 /* Sources */,
+				947655C51A393290007DBE24 /* Frameworks */,
+				947655C61A393290007DBE24 /* Resources */,
+				5FE4A6A33099AE252234B650 /* [CP] Embed Pods Frameworks */,
+				22008F4F0FC072B2A7C52566 /* [CP] Copy Pods Resources */,
+				947DCA131F46B27800F24DEA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947DCA0D1F46B27800F24DEA /* PBXTargetDependency */,
+			);
+			name = RYBleDemo;
+			productName = LeftMenuArcRoot;
+			productReference = 947655C81A393290007DBE24 /* RYBleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947DCA061F46B27800F24DEA /* RYBle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947DCA101F46B27800F24DEA /* Build configuration list for PBXNativeTarget "RYBle" */;
+			buildPhases = (
+				947DCA021F46B27800F24DEA /* Sources */,
+				947DCA031F46B27800F24DEA /* Frameworks */,
+				947DCA041F46B27800F24DEA /* Headers */,
+				947DCA051F46B27800F24DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYBle;
+			productName = RYBle;
+			productReference = 947DCA071F46B27800F24DEA /* RYBle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947655C01A393290007DBE24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					947655C71A393290007DBE24 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 8STA58M6SG;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					947DCA061F46B27800F24DEA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8STA58M6SG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 947655C31A393290007DBE24 /* Build configuration list for PBXProject "RYBleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947655BF1A393290007DBE24;
+			productRefGroup = 947655C91A393290007DBE24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947655C71A393290007DBE24 /* RYBleDemo */,
+				947DCA061F46B27800F24DEA /* RYBle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947655C61A393290007DBE24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BB10441F440A8F00990A47 /* Icon.xcassets in Resources */,
+				9401719D1A399D5A0084087D /* Main.storyboard in Resources */,
+				940AFA3A1A3EB026003D6B93 /* Loading.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947DCA051F46B27800F24DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22008F4F0FC072B2A7C52566 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYBleDemo/Pods-RYBleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		398D5E68768499AC1A8CEC5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FE4A6A33099AE252234B650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RYBleDemo/Pods-RYBleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947655C41A393290007DBE24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9419C82E1D51CFBF0084C7C9 /* RootNaviViewController.swift in Sources */,
+				94A862491D98E7BA00977748 /* BaseViewController.m in Sources */,
+				9419C81C1D51C06F0084C7C9 /* AppDelegate.swift in Sources */,
+				9419C8321D51D3630084C7C9 /* PannelViewController.swift in Sources */,
+				9419C82A1D51C7E10084C7C9 /* RootTabBarViewController.swift in Sources */,
+				9419C8281D51C7510084C7C9 /* HomeViewController.swift in Sources */,
+				940B26251E08C69000627DC7 /* Constant-String.swift in Sources */,
+				9419C8341D51D3F50084C7C9 /* StartViewController.swift in Sources */,
+				9419C8241D51C1CE0084C7C9 /* SettingViewController.swift in Sources */,
+				9419C8301D51CFF50084C7C9 /* CommonNaviController.swift in Sources */,
+				948158811F42B8A00054D5BA /* BleDetailViewController.swift in Sources */,
+				9419C82C1D51C8C10084C7C9 /* Constant-Swift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947DCA021F46B27800F24DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947DCA141F46B28700F24DEA /* RYBleManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947DCA0D1F46B27800F24DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947DCA061F46B27800F24DEA /* RYBle */;
+			targetProxy = 947DCA0C1F46B27800F24DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		947655D51A393290007DBE24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947655D61A393290007DBE24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947655E91A393290007DBE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		947655EA1A393290007DBE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947655EC1A393290007DBE24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CEEE0DAC573FD719733188 /* Pods-RYBleDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8STA58M6SG;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RootDirectory/SupportFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RootDirectory/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DRYAN_DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_SWIFT_FLAGS = "-DRYAN_DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = yulong.ryan.bledemo;
+				PRODUCT_NAME = RYBleDemo;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RootDirectory/SupportFiles/RootDirectory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		947655ED1A393290007DBE24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB8C8334D108052BCD623588 /* Pods-RYBleDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8STA58M6SG;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RootDirectory/SupportFiles/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RootDirectory/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DRYAN_DEBUG=0",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = yulong.ryan.bledemo;
+				PRODUCT_NAME = RYBleDemo;
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "RootDirectory/SupportFiles/RootDirectory-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		947DCA111F46B27800F24DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8STA58M6SG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RYBle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siemens.ryan.RYBle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		947DCA121F46B27800F24DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8STA58M6SG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RYBle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siemens.ryan.RYBle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947655C31A393290007DBE24 /* Build configuration list for PBXProject "RYBleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947655E91A393290007DBE24 /* Debug */,
+				947655EA1A393290007DBE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947655EB1A393290007DBE24 /* Build configuration list for PBXNativeTarget "RYBleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947655EC1A393290007DBE24 /* Debug */,
+				947655ED1A393290007DBE24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947DCA101F46B27800F24DEA /* Build configuration list for PBXNativeTarget "RYBle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947DCA111F46B27800F24DEA /* Debug */,
+				947DCA121F46B27800F24DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947655C01A393290007DBE24 /* Project object */;
+}

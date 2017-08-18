@@ -1,0 +1,21 @@
+PODS:
+  - BlueCapKit (0.5.3)
+  - CryptoSwift (0.6.9)
+  - RYUtils (4.4.0)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - BlueCapKit
+  - CryptoSwift
+  - RYUtils
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  BlueCapKit: 221424a9e5e0375591485368255b43139926c8bf
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  RYUtils: 9138b39ffe17811e658f648b64cf67d8f609c762
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: ca3cbc6ce981aff7e046ecb2efb3073c6a09d2b1
+
+COCOAPODS: 1.2.1

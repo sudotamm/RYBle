@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  LeftMenuArcRoot
+//
+//  Created by ryan on 12/11/14.
+//  Copyright (c) 2014 Ryan. All rights reserved.
+//
+
+//debug 版本打开注释输出，release版本去掉注释
+#if (RYAN_DEBUG)
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define NSLog(...)
+
+#endif
+
+#ifndef LeftMenuArcRoot_PrefixHeader_pch
+#define LeftMenuArcRoot_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "RYBleDemo-Swift.h"
+#endif
