@@ -1,0 +1,2 @@
+# RYBle
+基于CoreBluetooth库封装的BleCentral服务类，使用block的方式简化了蓝牙启动，扫描及配对的回调流程
