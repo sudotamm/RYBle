@@ -20,13 +20,13 @@
 		9419C8301D51CFF50084C7C9 /* CommonNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C82F1D51CFF50084C7C9 /* CommonNaviController.swift */; };
 		9419C8321D51D3630084C7C9 /* PannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C8311D51D3630084C7C9 /* PannelViewController.swift */; };
 		9419C8341D51D3F50084C7C9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9419C8331D51D3F50084C7C9 /* StartViewController.swift */; };
-		947DCA0B1F46B27800F24DEA /* RYBle.h in Headers */ = {isa = PBXBuildFile; fileRef = 947DCA091F46B27800F24DEA /* RYBle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		947DCA0E1F46B27800F24DEA /* RYBle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947DCA071F46B27800F24DEA /* RYBle.framework */; };
 		947DCA0F1F46B27800F24DEA /* RYBle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 947DCA071F46B27800F24DEA /* RYBle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		947DCA141F46B28700F24DEA /* RYBleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9494FCE71F3D4D16003A7FA1 /* RYBleManager.swift */; };
 		948158811F42B8A00054D5BA /* BleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948158801F42B8A00054D5BA /* BleDetailViewController.swift */; };
 		94A862491D98E7BA00977748 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D502381D531E81007DEE02 /* BaseViewController.m */; };
 		94BB10441F440A8F00990A47 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BB10431F440A8F00990A47 /* Icon.xcassets */; };
+		94C9A1021F4AAC8400DE21CF /* RYBleManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9494FCE71F3D4D16003A7FA1 /* RYBleManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		94D748F61F418D0B003390C9 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D748F51F418D0B003390C9 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
@@ -73,7 +73,6 @@
 		947656591A393B1E007DBE24 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9476565B1A393B1E007DBE24 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		947DCA071F46B27800F24DEA /* RYBle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RYBle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		947DCA091F46B27800F24DEA /* RYBle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYBle.h; sourceTree = "<group>"; };
 		947DCA0A1F46B27800F24DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948158801F42B8A00054D5BA /* BleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleDetailViewController.swift; sourceTree = "<group>"; };
 		9494FCE71F3D4D16003A7FA1 /* RYBleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYBleManager.swift; sourceTree = "<group>"; };
@@ -232,7 +231,6 @@
 		947DCA081F46B27800F24DEA /* RYBle */ = {
 			isa = PBXGroup;
 			children = (
-				947DCA091F46B27800F24DEA /* RYBle.h */,
 				9494FCE71F3D4D16003A7FA1 /* RYBleManager.swift */,
 				947DCA0A1F46B27800F24DEA /* Info.plist */,
 			);
@@ -262,7 +260,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947DCA0B1F46B27800F24DEA /* RYBle.h in Headers */,
+				94C9A1021F4AAC8400DE21CF /* RYBleManager.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
