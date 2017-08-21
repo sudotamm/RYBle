@@ -2,9 +2,13 @@
 基于CoreBluetooth库封装的BleCentral服务类，使用block的方式简化了蓝牙启动、扫描、配对及数据更新的回调流程。
 
 ### Integrate in your project
-
+use cocoapods:
 ```
 pod 'RYBle'
+```
+or carthage:
+```
+github "sudotamm/RYBle"
 ```
 
 ### How to use
