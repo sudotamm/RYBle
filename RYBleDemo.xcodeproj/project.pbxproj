@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B61E4DF6BF6091DF3D0C3CE /* Pods_RYBleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CC22166209B1116E0785F0 /* Pods_RYBleDemo.framework */; };
 		9401719D1A399D5A0084087D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947655D51A393290007DBE24 /* Main.storyboard */; };
 		940AFA3A1A3EB026003D6B93 /* Loading.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940AFA391A3EB026003D6B93 /* Loading.xcassets */; };
 		940B26251E08C69000627DC7 /* Constant-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940B26241E08C69000627DC7 /* Constant-String.swift */; };
@@ -82,7 +81,6 @@
 		94D748F51F418D0B003390C9 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		B2CEEE0DAC573FD719733188 /* Pods-RYBleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYBleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYBleDemo/Pods-RYBleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CB8C8334D108052BCD623588 /* Pods-RYBleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYBleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYBleDemo/Pods-RYBleDemo.release.xcconfig"; sourceTree = "<group>"; };
-		E1CC22166209B1116E0785F0 /* Pods_RYBleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYBleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 			files = (
 				947DCA0E1F46B27800F24DEA /* RYBle.framework in Frameworks */,
 				94D748F61F418D0B003390C9 /* CoreBluetooth.framework in Frameworks */,
-				4B61E4DF6BF6091DF3D0C3CE /* Pods_RYBleDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +229,6 @@
 			isa = PBXGroup;
 			children = (
 				94D748F51F418D0B003390C9 /* CoreBluetooth.framework */,
-				E1CC22166209B1116E0785F0 /* Pods_RYBleDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
