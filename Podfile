@@ -1,12 +1,12 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 inhibit_all_warnings!
 use_frameworks!
 
 target :RYBleDemo do
 
 pod 'RYUtils'
-pod 'BlueCapKit'
+pod 'BlueCapKit', '~>0.6.0'
 pod 'SVProgressHUD'
-pod 'CryptoSwift'
+pod 'CryptoSwift', '~>0.9.0'
 
 end

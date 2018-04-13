@@ -14,7 +14,7 @@ class BleDetailViewController: BaseViewController {
     
     @IBOutlet weak var contentTableView: UITableView!
     
-    func reloadBleDetail(){
+    @objc func reloadBleDetail(){
         self.setNaviTitle(RYBleManager.sharedManager.connectedPeriheral?.name ?? "Peripheral")
         self.contentTableView.reloadData()
     }
@@ -65,7 +65,7 @@ extension BleDetailViewController: UITableViewDataSource{
                 let u16intValue = UInt16(hexString, radix: 16) ?? 0
                 
                 var swapu16intValue = u16intValue
-                if hexString.characters.count == 4{
+                if hexString.count == 4{
                     swapu16intValue = CFSwapInt16BigToHost(u16intValue)
                 }
                 cell.detailTextLabel?.text = String(swapu16intValue)

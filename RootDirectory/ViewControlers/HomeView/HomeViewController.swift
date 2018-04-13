@@ -34,7 +34,7 @@ class HomeViewController: BaseViewController {
     
     //MARK: Private methods
     
-    func refreshTrigger(rc: UIRefreshControl){
+    @objc func refreshTrigger(rc: UIRefreshControl){
         if rc.isRefreshing{
             
             let services: [CBUUID]? = nil//[CBUUID(string: Service128BitUUID)]

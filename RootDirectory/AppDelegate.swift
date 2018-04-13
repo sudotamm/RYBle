@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var rootTabBarViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RootTabBarViewController")
     
     //MARK: Public methods
-    func showPannelView(_ notification: Notification){
+    @objc func showPannelView(_ notification: Notification){
         self.window!.addAnimation(withType: kCATransitionFade, subtype:nil)
         if(RootTemplateType == 0){
             self.window!.rootViewController = self.pannelViewController
